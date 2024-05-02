@@ -12,40 +12,36 @@
 body{
     background-color: rgb(61, 60, 60);
 }
-.container{
-    width:400px;
-    height: 648px;
+.header{
+    min-height: 100vh;
+    width: 100%;
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)) ,url(img.png);
     background-size: cover;
     background-position:center;
-    border-radius: 10px;
-    margin-top:20px;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
 }
- .container h3{
+  h3{
     font-size: 30px;
     color: white;
     text-align: center;
     padding-top: 250px;
  }
- .container h1{
+  h1{
     color: aquamarine;
     text-align: center;
     font-size: 40px;
  }
- .container strong{
+  strong{
     color:aqua;
     font-weight: 700;
  }
- .container p{
+  p{
     color: white;
     text-align: center;
     padding-top:120px ;
     padding-left: 10px;
     padding-right: 10px;
- }
- .container a{
+ } a{
     text-decoration: none;
     background-color:aqua;
     top:85%;
@@ -57,15 +53,12 @@ body{
     font-size: 15px;
  }
  .container1{
-    width:400px;
-    height: 670px;
+    min-height: 100vh;
+    width: 100%;
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)) ,url(images.png);
     background-size: cover;
     background-position:center;
-    border-radius: 10px;
-    margin-top:20px;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
 }
 .container1 h1{
     color: aqua;
